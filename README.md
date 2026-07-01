@@ -28,20 +28,6 @@ CalcHub é uma coleção de calculadoras simples desenvolvida como projeto de es
 - Bootstrap 5
 - JavaScript
 
----
-
-## 🚀 Como executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/calchub.git
-
-# Entre na pasta do projeto
-cd calchub
-
-# Abra o index.html no navegador
-# (ou use a extensão Live Server, se estiver no VS Code)
-```
 
 ---
 
