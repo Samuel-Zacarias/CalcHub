@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Calculadora de IMC</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+  </style>
+  <body>
+    <nav class='navbar navbar-expand-sm bg-dark navbar-dark'>
+        <div class='container-fluid'>
+            <ul class='navbar-nav'>
+                <li class='nav-item'>
+                    <a class='nav-link' href='index.html'>Início</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='formularioPessoa.html'>Calculadora de IMC</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='formularioFuncionario.html'>Calculadora de Funcionario</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='formularioProduto.html'>Calculadora de Produto</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='formularioNota.html'>Calculadora de Nota</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='formularioTriangulo.html'>Calculadora de Triângulo</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+      <h1>Calculadora de IMC</h1>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="card shadow">
+          <br />
+          <h2>Cálculo de IMC</h2>
+          <div class="card-body">
+            <form action="/pessoa/imc" method="get">
+              <div class="col-md-8">
+                <div class="mb-3">
+                  <label for="nome">Nome:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Digite o seu nome"
+                    name="txtNome"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="peso">Peso:</label>
+                  <input
+                    type="number"
+                    step="0.01"
+                    class="form-control"
+                    placeholder="Digite o seu peso"
+                    name="txtPeso"
+                    required
+                  />
+                </div>
+                <div class="mb-3 mt-3">
+                  <label for="altura">Altura(m):</label>
+                  <input
+                    type="number"
+                    step="0.01"
+                    class="form-control"
+                    placeholder="Digite a altura"
+                    name="txtAltura"
+                    required
+                  />
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Calcular IMC
+              </button>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+  </body>
+</html>

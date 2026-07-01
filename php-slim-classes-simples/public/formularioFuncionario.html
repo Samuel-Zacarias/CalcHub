@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+</head>
+<style>
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Calculadora de coisas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formularioPessoa.html">Calculadora de IMC</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>Calculadora de Funcionario</h1>
+    </div>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+
+            <div class="col-md-6">
+                <div class="card shadow p-4">
+
+                    <h2 class="text-center mb-4">Cálculo de Salário</h2>
+
+                    <form action="/exercicio2" method="get">
+
+                        <div class="mb-3">
+                            <label>Nome:</label>
+                            <input type="text" class="form-control" placeholder="Digite o seu nome" name="txtNome" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Valor por hora:</label>
+                            <input type="text" class="form-control" placeholder="Digite o valor por hora" name="txtValorHora" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Valor por hora extra:</label>
+                            <input type="text" class="form-control" placeholder="Digite o valor por hora extra" name="txtValorHoraExtra" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Quantidade de horas:</label>
+                            <input type="text" class="form-control" placeholder="Digite as horas trabalhadas" name="txtHora" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Quantidade de horas extras:</label>
+                            <input type="text" class="form-control" placeholder="Digite as horas extras" name="txtHorasExtras" required>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">
+                                Calcular Salário
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
